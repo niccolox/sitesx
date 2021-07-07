@@ -36,7 +36,7 @@ defmodule Sitesx.Mixfile do
 
   defp deps do
     [
-      {:ecto, "~> 2.1"},
+      {:ecto, "~> 3.0"},
       {:plug, "~> 1.3"},
 
       {:httpoison, "~> 1.1"},

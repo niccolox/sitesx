@@ -39,7 +39,7 @@ defmodule Sitesx.Mixfile do
       {:ecto, "~> 2.1"},
       {:plug, "~> 1.3"},
 
-      {:httpoison, "~> 0.11"},
+      {:httpoison, "~> 1.1"},
       {:public_suffix, "~> 0.5"},
 
       {:con_cache, "~> 0.12"},

@@ -41,7 +41,7 @@ defmodule Sitesx.Mixfile do
 
       {:httpoison, "~> 1.1"},
 #      {:public_suffix, "~> 0.6.0"},
-      {:public_suffix, github: "niccolox/sitesx", override: true},
+      {:public_suffix, github: "niccolox/publicsuffix-elixir", override: true},
       {:con_cache, "~> 0.12"},
       {:chexes, "~> 0.1"},
       {:phoenix_html_simplified_helpers, "~> 2.1.0"},

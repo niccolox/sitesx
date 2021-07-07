@@ -40,7 +40,7 @@ defmodule Sitesx.Mixfile do
       {:plug, "~> 1.3"},
 
       {:httpoison, "~> 1.1"},
-      {:public_suffix, "~> 0.5"},
+      {:public_suffix, "~> 0.6.0"},
 
       {:con_cache, "~> 0.12"},
       {:chexes, "~> 0.1"},

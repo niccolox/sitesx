@@ -40,8 +40,8 @@ defmodule Sitesx.Mixfile do
       {:plug, "~> 1.3"},
 
       {:httpoison, "~> 1.1"},
-      {:public_suffix, "~> 0.6.0"},
-
+#      {:public_suffix, "~> 0.6.0"},
+      {:public_suffix, github: "niccolox/sitesx", override: true},
       {:con_cache, "~> 0.12"},
       {:chexes, "~> 0.1"},
       {:phoenix_html_simplified_helpers, "~> 2.1.0"},

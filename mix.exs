@@ -44,7 +44,7 @@ defmodule Sitesx.Mixfile do
 
       {:con_cache, "~> 0.12"},
       {:chexes, "~> 0.1"},
-      {:phoenix_html_simplified_helpers, "~> 1.1"},
+      {:phoenix_html_simplified_helpers, "~> 2.1.0"},
 
       {:postgrex, ">= 0.0.0", only: [:dev, :test]},
       {:phoenix, "~> 1.3.0-rc.2", only: :test},

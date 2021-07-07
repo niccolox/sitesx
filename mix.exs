@@ -44,8 +44,8 @@ defmodule Sitesx.Mixfile do
       {:public_suffix, github: "niccolox/publicsuffix-elixir", override: true},
       {:con_cache, "~> 0.12"},
       {:chexes, "~> 0.1"},
+      {:chexes, github: "niccolox/chexes", override: true},
       {:phoenix_html_simplified_helpers, "~> 2.1.0"},
-
       {:postgrex, ">= 0.0.0", only: [:dev, :test]},
       {:phoenix, "~> 1.3.0-rc.2", only: :test},
         {:poison, "~> 2.0 or ~> 2.2 or >= 3.0.0"},

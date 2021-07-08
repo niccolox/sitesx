@@ -43,7 +43,7 @@ defmodule Sitesx.Mixfile do
 #      {:public_suffix, "~> 0.6.0"},
       {:public_suffix, github: "devekkoio/publicsuffix-elixir", override: true},
       {:con_cache, "~> 0.12"},
-      {:chexes, "~> 0.1"},
+#      {:chexes, "~> 0.1"},
       {:chexes, github: "niccolox/chexes", override: true},
       {:phoenix_html_simplified_helpers, "~> 2.1.0"},
       {:postgrex, ">= 0.0.0", only: [:dev, :test]},
